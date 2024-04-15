@@ -1,0 +1,109 @@
+.register-container {
+  max-width: 460px;
+  height: 600px;
+  margin: 15px auto;
+  padding: 40px;
+  padding-bottom: 115px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.register-container p {
+  text-align: center;
+  margin-top: 10px;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Add a subtle animation to the form */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-container {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Add styling for the role select dropdown */
+.form-group select {
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* Add hover effect for the select dropdown */
+.form-group select:hover {
+  border-color: #3498db;
+}
+
+/* Style the options in the select dropdown */
+.form-group select option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style the label for the role select dropdown */
+.form-group label {
+  display: block;
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Add margin-bottom to the role select dropdown */
+.form-group.select-role {
+  margin-bottom: 20px;
+}

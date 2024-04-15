@@ -1,0 +1,114 @@
+/* src/styles/Navbar.css */
+
+nav {
+  background-color: #2c3e50;
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #ecf0f1;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+li a:hover {
+  color: #fff;
+}
+
+.user-menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  left: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.admin-menu {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  left: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+.user-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  display: none;
+  flex-direction: column;
+  background-color: #2c3e50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.user-menu:hover .user-dropdown {
+  display: flex;
+}
+
+.user-dropdown a {
+  padding: 10px;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.user-dropdown a:hover {
+  background-color: #3498db;
+}
+
+.dropdown-icon {
+  margin-left: 5px;
+}
+
+.admin-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 40px;
+  display: none;
+  flex-direction: column;
+  background-color: #2c3e50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.user-menu:hover .admin-dropdown {
+  display: flex;
+}
+
+.admin-dropdown a {
+  padding: 10px;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.admin-dropdown a:hover {
+  background-color: #3498db;
+}

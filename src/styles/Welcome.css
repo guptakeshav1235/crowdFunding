@@ -1,0 +1,40 @@
+.welcome-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-container h2 {
+  color: #333;
+  text-align: center;
+}
+
+.welcome-container p {
+  color: #555;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.campaign-list {
+  margin-top: 30px;
+}
+
+.campaign-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.campaign-item h3 {
+  color: #333;
+}
+
+.campaign-item h4 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
